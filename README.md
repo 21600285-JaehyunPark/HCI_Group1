@@ -1,4 +1,4 @@
-# hci_group1
+# Pocket Trainer
 
 A new Flutter project.
 
