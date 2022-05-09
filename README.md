@@ -12,8 +12,9 @@ A new Flutter project.
 2. Background
 3. Language
 4. Wireframe / Interaction
-6. Sourcecode
-7. Reference
+5. Sourcecode
+6. Reference
+7. Conclusion
 
 ## Introduction
 
