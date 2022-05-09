@@ -10,8 +10,10 @@ A new Flutter project.
 
 1. Introduction
 2. Background
-3. Research
-4. Sourcecode
+3. Language
+4. Wireframe / Interaction
+6. Sourcecode
+7. Reference
 
 ## Introduction
 
