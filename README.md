@@ -1,6 +1,6 @@
 # Pocket Trainer
 
-A new Flutter project.
+With our application, people can film their motions and get guidance by a personal A.I trainer with machine learning. Also, users can receive feedback from experts in sports.
 
 ### Members
 
