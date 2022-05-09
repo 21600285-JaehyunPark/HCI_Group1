@@ -2,7 +2,13 @@
 
 A new Flutter project.
 
-## Getting Started
+### Members
+
+21700045 권동성 / 21600285 박재현 / 21700302 박준석 / 21600447 유승준 / 21700576 이중호
+
+
+## Introduction
+
 
 This project is a starting point for a Flutter application.
 
