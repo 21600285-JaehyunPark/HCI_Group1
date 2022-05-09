@@ -24,19 +24,24 @@ class Home extends StatelessWidget {
               crossAxisSpacing: 10, //수직 Padding
             ),
             itemBuilder: (context, index) {
-              return Card(
-                child: Row(
-                  children: [
-                    Container(
-                      padding: const EdgeInsets.only(left: 20),
-                      width: 50,
-                      height: 50,
-                      color: Colors.blue,
-                    ),
-                    Expanded(
-                        child: Center(child: Text(homeController.home_sports_experts[index].name))
-                    )
-                  ],
+              return GestureDetector(
+                onTap: () {
+                  Get.toNamed('/home/firstTrainee');
+                },
+                child: Card(
+                  child: Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.only(left: 20),
+                        width: 50,
+                        height: 50,
+                        color: Colors.blue,
+                      ),
+                      Expanded(
+                          child: Center(child: Text(homeController.home_sports_experts[index].name))
+                      )
+                    ],
+                  ),
                 ),
               );
             }
@@ -46,18 +51,19 @@ class Home extends StatelessWidget {
         type: BottomNavigationBarType.fixed,
         backgroundColor: Colors.white,
         selectedItemColor: Colors.black,
+        selectedLabelStyle: const TextStyle(fontSize: 12),
         items: const [
           BottomNavigationBarItem(
             label: 'Learn',
-            icon: Icon(Icons.directions_run_outlined),
+            icon: Icon(Icons.directions_run_outlined, size: 20,),
           ),
           BottomNavigationBarItem(
             label: 'Video',
-            icon: Icon(Icons.camera_alt_outlined),
+            icon: Icon(Icons.camera_alt_outlined, size: 20,),
           ),
           BottomNavigationBarItem(
             label: 'Profile',
-            icon: Icon(Icons.person_outline),
+            icon: Icon(Icons.person_outline, size: 20,),
           ),
         ],
       ),

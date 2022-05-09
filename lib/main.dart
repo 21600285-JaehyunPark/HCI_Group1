@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'HCI Group1',
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.white
+          backgroundColor: Colors.white,
         ),
         primarySwatch: Colors.blue,
       ),
