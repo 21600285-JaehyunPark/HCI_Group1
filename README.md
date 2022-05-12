@@ -8,12 +8,12 @@ With our application, people can film their motions and get guidance by a person
 
 ## index
 
-1. Introduction #introduction
+1. Introduction (#introduction)
 2. Language
 3. Wireframe / Interaction
 4. Sourcecode
 5. Conclusion
-6. Reference
+6. References
 
 
 This project is a starting point for a Flutter application.
@@ -75,8 +75,6 @@ tensorflow lite
 
 ### 3) Future studies
 
-
-## Reference
 
 ## References
 
