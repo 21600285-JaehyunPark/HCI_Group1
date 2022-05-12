@@ -9,12 +9,11 @@ With our application, people can film their motions and get guidance by a person
 ## index
 
 1. Introduction
-2. Background
-3. Language
-4. Wireframe / Interaction
-5. Sourcecode
-6. Conclusion
-7. Reference
+2. Language
+3. Wireframe / Interaction
+4. Sourcecode
+5. Conclusion
+6. Reference
 
 
 This project is a starting point for a Flutter application.
@@ -48,5 +47,8 @@ samples, guidance on mobile development, and a full API reference.
 - Receive accurate exercise posture and feedback in real time.
 
 
-## Main Contents
+## Language
+
+Flutteer
+tensorflow lite
 
