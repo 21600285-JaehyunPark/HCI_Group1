@@ -9,11 +9,16 @@ With our application, people can film their motions and get guidance by a person
 ## index
 
 [1. Introduction](#introduction)
-2. Language
-3. Wireframe / Interaction
-4. Sourcecode
-5. Conclusion
-6. References
+
+[2. Language](#language)
+
+[3. Wireframe / Interaction](#wireframe_/_interaction)
+
+[4. Sourcecode](#sourcecode)
+
+[5. Conclusion](#conclusion)
+
+[6. References](#references)
 
 
 This project is a starting point for a Flutter application.
