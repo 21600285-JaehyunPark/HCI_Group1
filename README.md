@@ -8,7 +8,7 @@ With our application, people can film their motions and get guidance by a person
 
 ## index
 
-1. Introduction (#introduction)
+[1. Introduction](#introduction)
 2. Language
 3. Wireframe / Interaction
 4. Sourcecode
@@ -27,7 +27,7 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-## #Introduction
+## Introduction
 
 ### 1) Background
 
