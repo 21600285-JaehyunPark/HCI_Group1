@@ -2,7 +2,6 @@
 
 With our application, people can film their motions and get guidance by a personal A.I trainer with machine learning. Also, users can receive feedback from experts in sports.
 
-https://github.com/21600285-JaehyunPark/hci_group1/blob/dev/img/Flutter_img.png
 
 ### Members
 
