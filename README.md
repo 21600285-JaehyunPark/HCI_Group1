@@ -70,6 +70,9 @@ tensorflow lite
 
 ### 2) Limitation
 
+-We tried making the PT App can act as a community application, but there is not enough time.
+-The PT App cannot catch multiple people, only one person can use it.
+
 ### 3) Future studies
 
 
