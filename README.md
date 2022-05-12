@@ -16,8 +16,6 @@ With our application, people can film their motions and get guidance by a person
 6. Conclusion
 7. Reference
 
-## Introduction
-
 
 This project is a starting point for a Flutter application.
 
@@ -30,13 +28,25 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-## Backgrounds
+## Introduction
 
-### 1) Problems
+### 1) Background
+
+ Due to COVID-19, many people are having difficulty accessing outdoor activities such as gyms than in the past. Also, even if you go to the gym, you must receive PT (Personal Training) to do high-quality exercise with the correct posture, but PT is often not provided because the cost of PT is very expensive.
+ If exercisers do not receive PT and exercise in an incorrect posture, they may lose health rather than gain health through exercise. Therefore, the APP was developed to provide exercise in an accurate posture to each individual without a large cost.
 
 ### 2) Target users
 
+- People who have the burden to use money on learning sports.
+- People who are adapted to mobile applications.
+- People with no sports education centers nearby.
+
 ### 3) Goal
+
+- Easy access to exercise
+- Exercises can be learned at no cost.
+- Receive accurate exercise posture and feedback in real time.
+
 
 ## Main Contents
 
