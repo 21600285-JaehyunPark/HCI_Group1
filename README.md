@@ -2,6 +2,7 @@
 
 With our application, people can film their motions and get guidance by a personal A.I trainer with machine learning. Also, users can receive feedback from experts in sports.
 
+
 ### Members
 
 21700045 권동성 / 21600285 박재현 / 21700302 박준석 / 21600447 유승준 / 21700576 이중호
@@ -59,6 +60,11 @@ tensorflow lite
 
 ## Wireframe / Interaction
 
+- i. User selects the sport to test their pose
+- ii. User recognizes the compositions of the video, and the posture by watching the video of the experts
+- iii. Turns on the camera
+- iv. Set the composition of the camera (angle, distance), and do the selected sports.
+- v. 
 
 
 ## Sourcecode
@@ -69,6 +75,9 @@ tensorflow lite
 ### 1) Demo video
 
 ### 2) Limitation
+
+- We tried making the PT App can act as a community application, but there is not enough time.
+- The PT App cannot catch multiple people, only one person can use it.
 
 ### 3) Future studies
 
