@@ -4,7 +4,7 @@ description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-version: 1.0.0+1
+version: 0.0.1
 
 environment:
   sdk: ">=2.16.0 <3.0.0"
@@ -12,13 +12,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  get: ^4.6.1
+  get: 
+  image_picker: ^0.8.5
+  camera: ^0.9.4+21
   cupertino_icons: ^1.0.2
   carousel_slider: ^4.1.1
   google_ml_kit: ^0.11.0
   google_mlkit_pose_detection: ^0.3.0
-
+  google_mlkit_commons: ^0.2.0
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -27,6 +29,12 @@ dev_dependencies:
 
 
 flutter:
-
+  plugin:
+    platforms:
+      android:
+        package: com.google_mlkit_pose_detection
+        pluginClass: GoogleMlKitPoseDetectionPlugin
+      ios:
+        pluginClass: GoogleMlKitPoseDetectionPlugin
   uses-material-design: true
 
