@@ -1,13 +1,13 @@
+import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hci_group1/roots/app_page.dart';
-
-void main() {
-  runApp(const MyApp());
-}
+import 'package:flutter/material.dart';
+import 'dart:async';
+List<CameraDescription> cameras = [];
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({Key key}) : super(key: key);
 
   // This widget is the root of your application.
   @override

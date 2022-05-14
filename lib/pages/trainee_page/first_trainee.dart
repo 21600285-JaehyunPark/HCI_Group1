@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class FirstTrainee extends StatelessWidget {
-  const FirstTrainee({Key? key}) : super(key: key);
+  const FirstTrainee({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

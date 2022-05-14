@@ -13,10 +13,10 @@ class SportsExpert {
 
   factory SportsExpert.fromDs(dynamic data) {
     return SportsExpert(
-      image: data.data()!['story'] ?? '',
-      name: data.data()!['story'] ?? '',
-      video: data.data()!['story'] ?? [],
-      video_comment: data.data()!['story'] ?? [],
+      image: data.data()['story'] ?? '',
+      name: data.data()['story'] ?? '',
+      video: data.data()['story'] ?? [],
+      video_comment: data.data()['story'] ?? [],
     );
   }
 
