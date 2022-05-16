@@ -59,7 +59,7 @@ tensorflow lite
 
 
 ## Wireframe / Interaction
-
+![wireframe](https://user-images.githubusercontent.com/101546543/168504501-5fcc5d6b-b739-4288-aaec-f1fbfc5f17ef.png)
 - i. User selects the sport to test their pose
 - ii. User recognizes the compositions of the video, and the posture by watching the video of the experts
 - iii. Turns on the camera
