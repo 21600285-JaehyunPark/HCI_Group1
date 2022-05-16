@@ -29,7 +29,7 @@ With our application, people can film their motions and get guidance by a person
 
 ![correct_posture](https://user-images.githubusercontent.com/61749998/167976899-e1e67e4c-a6c3-4f5c-b18c-3c80eb9d35ab.png)
 
-- Due to COVID-19, many people are having difficulty accessing outdoor activities such as gyms than in the past. Also, even if you go to the gym, you must receive PT (Personal Training) to do high-quality exercise with the correct posture, but PT is often not provided because the cost of PT is very expensive.
+ Due to COVID-19, many people are having difficulty accessing outdoor activities such as gyms than in the past. Also, even if you go to the gym, you must receive PT (Personal Training) to do high-quality exercise with the correct posture, but PT is often not provided because the cost of PT is very expensive.
  If exercisers do not receive PT and exercise in an incorrect posture, they may lose health rather than gain health through exercise. Therefore, the APP was developed to provide exercise in an accurate posture to each individual without a large cost.
 
 ### 2) Target users
@@ -53,11 +53,8 @@ Flutter
 
 
 
-![Tensorflow_img](https://user-images.githubusercontent.com/61749998/167974160-d61ea3d3-23db-4188-b726-c151543f109c.png)
-
-Tensorflow lite
-
 ![다운로드 (5)](https://user-images.githubusercontent.com/101546543/168508230-c8ed02e6-fafa-425c-a405-41c0a3efb017.jpg)
+
 Google ML kit
 
 ## Wireframe / Interaction
