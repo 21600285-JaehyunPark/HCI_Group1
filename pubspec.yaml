@@ -12,7 +12,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  get: 
+  get:
+  path_provider:
+  path:
+
+  flutter_lints: ^1.0.4
   image_picker: ^0.8.5
   camera: ^0.9.4+21
   cupertino_icons: ^1.0.2
@@ -25,16 +29,16 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^1.0.0
+  flutter_lints: ^1.0.4
 
 
 flutter:
-  plugin:
-    platforms:
-      android:
-        package: com.google_mlkit_pose_detection
-        pluginClass: GoogleMlKitPoseDetectionPlugin
-      ios:
-        pluginClass: GoogleMlKitPoseDetectionPlugin
+#  plugin:
+#    platforms:
+#      android:
+#        package: com.google_mlkit_pose_detection
+#        pluginClass: GoogleMlKitPoseDetectionPlugin
+#      ios:
+#        pluginClass: GoogleMlKitPoseDetectionPlugin
   uses-material-design: true
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_ml_kit/google_ml_kit.dart';
 import 'package:google_mlkit_commons/google_mlkit_commons.dart';
-import 'package:hci_group1/pages/pose_page/pose_detector.dart';
 
 import 'coordinates_translator.dart';
 
@@ -41,12 +41,12 @@ class PosePainter extends CustomPainter {
 
       void paintLine(
           PoseLandmarkType type1, PoseLandmarkType type2, Paint paintType) {
-        final PoseLandmark joint1 = pose.landmarks[type1];
-        final PoseLandmark joint2 = pose.landmarks[type2];
+        final PoseLandmark? joint1 = pose.landmarks[type1];
+        final PoseLandmark? joint2 = pose.landmarks[type2];
         canvas.drawLine(
-            Offset(translateX(joint1.x, rotation, size, absoluteImageSize),
+            Offset(translateX(joint1!.x, rotation, size, absoluteImageSize),
                 translateY(joint1.y, rotation, size, absoluteImageSize)),
-            Offset(translateX(joint2.x, rotation, size, absoluteImageSize),
+            Offset(translateX(joint2!.x, rotation, size, absoluteImageSize),
                 translateY(joint2.y, rotation, size, absoluteImageSize)),
             paintType);
       }
