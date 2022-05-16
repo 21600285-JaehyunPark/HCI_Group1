@@ -13,7 +13,7 @@ With our application, people can film their motions and get guidance by a person
 
 [2. Language](#language)
 
-[3. Wireframe / Interaction](#wireframe_/_interaction)
+[3. Wireframe / Interaction](#wireframe / interaction)
 
 [4. Sourcecode](#sourcecode)
 
