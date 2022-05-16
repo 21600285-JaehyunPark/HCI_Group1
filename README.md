@@ -80,7 +80,9 @@ Tensorflow lite
 - It was impossible to measure and inspect a perfectly accurate posture by reading the coordinates of each joint with a camera during exercise.
 
 ### 3) Future studies
+
 - I thought that the PT (Pocket trainer) APP would not only provide the exercise method and frequency, but also form an exercise community that exchanges information with each other and shares exercise experiences.
+- Currently, the type of exercise is limited to one, but if we want to add a new exercise, we can continuously add it.
 
 ## References
 
