@@ -49,13 +49,13 @@ With our application, people can film their motions and get guidance by a person
 
 ![Flutter_img](https://user-images.githubusercontent.com/61749998/167973988-bbd1a274-913a-426d-a105-203aae9b8d3b.png)
 
-Flutteer
+Flutter
 
 
 
 ![Tensorflow_img](https://user-images.githubusercontent.com/61749998/167974160-d61ea3d3-23db-4188-b726-c151543f109c.png)
 
-tensorflow lite
+Tensorflow lite
 
 
 ## Wireframe / Interaction
