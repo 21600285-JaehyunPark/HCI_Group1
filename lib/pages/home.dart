@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hci_group1/controllers/home_controller.dart';
 
+import '../controllers/camera_view_controller.dart';
+
 class Home extends StatelessWidget {
   final homeController = Get.find<HomeController>();
 
@@ -47,26 +49,26 @@ class Home extends StatelessWidget {
             }
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,
-        backgroundColor: Colors.white,
-        selectedItemColor: Colors.black,
-        selectedLabelStyle: const TextStyle(fontSize: 12),
-        items: const [
-          BottomNavigationBarItem(
-            label: 'Learn',
-            icon: Icon(Icons.directions_run_outlined, size: 20,),
-          ),
-          BottomNavigationBarItem(
-            label: 'Video',
-            icon: Icon(Icons.camera_alt_outlined, size: 20,),
-          ),
-          BottomNavigationBarItem(
-            label: 'Profile',
-            icon: Icon(Icons.person_outline, size: 20,),
-          ),
-        ],
-      ),
+      // bottomNavigationBar: BottomNavigationBar(
+      //   type: BottomNavigationBarType.fixed,
+      //   backgroundColor: Colors.white,
+      //   selectedItemColor: Colors.black,
+      //   selectedLabelStyle: const TextStyle(fontSize: 12),
+      //   items: const [
+      //     BottomNavigationBarItem(
+      //       label: 'Learn',
+      //       icon: Icon(Icons.directions_run_outlined, size: 20,),
+      //     ),
+      //     BottomNavigationBarItem(
+      //       label: 'Video',
+      //       icon: Icon(Icons.camera_alt_outlined, size: 20,),
+      //     ),
+      //     BottomNavigationBarItem(
+      //       label: 'Profile',
+      //       icon: Icon(Icons.person_outline, size: 20,),
+      //     ),
+      //   ],
+      // ),
     );
   }
 }
