@@ -63,7 +63,7 @@ Google ML kit
 - ii. User recognizes the compositions of the video, and the posture by watching the video of the experts
 - iii. Turns on the camera
 - iv. Set the composition of the camera (angle, distance), and do the selected sports.
-- v. 
+- v. The Pocket Trainer will check how much user's pose similar with guide pose and show the result to the user.
 
 
 ## Sourcecode
